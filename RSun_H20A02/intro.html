@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Isekai Casino</title>
+    <link href="style/site.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<nav class="brand">Isekai Casino</nav>
+    <form action="game.html" name = "signup" method="get" id="signup">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for="fName" class="label">First Name</label>
+            <input type="text" id="fName" name="fName" class="field" placeholder="First Name">
+            <label class="error" id="eFName">Invalid first name</label>
+
+            <label for="lName" class="label">Last Name</label>
+            <input type="text" id="lName" name="lNames" class="field" placeholder="Last Name">
+            <label class="error" id="eLName">Invalid last name</label>
+
+            <label for="uName" class="label">Username</label>
+            <input type="text" id="uName" name="uName" class="field" placeholder="Username">
+            <label class="error" id="eUName">Invalid username</label>
+
+            <label for="email" class="label">Email</label>
+            <input type="email" id="email" name="email" class="field" placeholder="name@domain.(com|ca|org)">
+            <label class="error" id="eEmail">Invalid email</label>
+
+            <label for="phone" class="label">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="field" placeholder="###.###.####">
+            <label for="lName" class="error" id="ePhone">Invalid phone</label>
+
+            <label for="city" class="label">City</label>
+            <input type="text" id="city" name="city" class="field" placeholder="City">
+            <label class="error" id="eCity">Invalid city</label>
+
+            <label for="money" class="label">Money</label>
+            <input type="text" id="money" name="money" class="field" placeholder="5 to 5000">
+            <label class="error" id="eMoney">Invalid amount</label>
+
+            <input type="submit" name="btnSubmit" id="btnSubmit" value="Sign Up">
+        </fieldset>
+    </form>
+<div class="mobile">Please rotate the screen</div>
+<script src="js/intro.js"></script>
+</body>
+
+</html>

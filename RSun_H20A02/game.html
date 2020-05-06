@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/site.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Isekai Casino</title>
+</head>
+<body>
+    <nav class="brand">Isekai Casino</nav>
+        <div class="center">Uno</div>
+<main>
+    <div class="computer">
+        Computer
+        <div class="line"></div>
+        <div id="computerInfo"></div>
+    </div>
+    <div class="card" id="board"></div>
+    <div id="legend">
+        <h4>Legend</h4>
+        <p>10-11: Skip a turn</p>
+        <p>12   : Draw 2 cards</p>
+        <p>13   : Draw 4 and <br>change colours</p>
+        <p>14   : Change colours</p>
+    </div>
+</main>
+
+<footer>
+    <div id="hand"></div>
+    <div id="playerInfo"></div>
+</footer>
+
+    <div class="profile">
+        <h1>Profile</h1>
+        <h4>Username:<br></h4>
+        <p id="uName"></p>
+        <h4>Name:<br></h4>
+        <p  id="name"></p>
+        <h4>Phone Number:<br></h4>
+        <p id="phone"></p>
+        <h4>City:<br></h4>
+        <p id="city"></p>
+        <h4>Email:<br></h4>
+        <p id="email"></p>
+        <h4>Money:<br></h4>
+        <p id="money"></p>
+        <p id="person"></p><a id="credentials">Change Credentials</a>
+        <h4 id="visitLabel"> Your last visit was on<br></h4>
+        <p id="visit"></p>
+    </div>
+    <div class="btnProfile"></div>
+
+    <div class="mobile">Please rotate the screen</div>
+
+    <div id="mask">
+        Choose a colour
+        <div id="palette">
+        <div class="colours"></div>
+        <div class="colours"></div>
+        <div class="colours"></div>
+        <div class="colours"></div>
+        </div>
+    </div>
+
+        <form id="bet">
+            <div id="result"><h2>Welcome</h2><p>Please set a multiplier to start</p></div>
+            <label for="multiplier" id="mLabel">Multiplier</label>
+            <input type="text" id="multiplier">
+            <div id="erMultiplier" class="error">Invalid multiplier</div>
+            <input type="button" id="start" value="Start">
+            <div id="end"></div>
+        </form>
+    <script src ="js/uno.js"></script>
+    <script src ="js/game.js"></script>
+</body>
+</html>

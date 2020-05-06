@@ -1,0 +1,314 @@
+body{
+    background-color: #00396e;
+     margin:0;
+
+    font-family: Arial, serif;
+    color:white;
+    font-size:1.5em;
+ }
+form{
+    margin: 25vh auto auto auto;
+    padding:1%;
+    border-radius: 25px;
+    background-color: rgba(0, 171, 255, 0.61);
+
+}
+fieldset{
+    border-radius: 15px;
+    border: solid 2px goldenrod;
+}
+a{
+    text-decoration: none;
+}
+main{
+    height:50vh;
+}
+footer{
+    box-shadow: 0 -2px 2px 0 black;
+    border-top:solid 2px goldenrod;
+    padding-top:2vh;
+    background-color: #005597;
+    display:grid;
+    grid-template-columns: auto 160px;
+    height: 30vh;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin:0;
+    text-align: center;
+}
+h4{
+    margin:0;
+}
+.title{
+    margin-left: 35px;
+}
+.label{
+    text-align: right;
+    display: inline-block;
+    width:200px;
+    color: black;
+}
+.error{
+    display: none;
+    color: red;
+    margin-left: 225px;
+}
+.field{
+    width: 325px;
+    margin: 1vh 1vw 0 1vw;
+}
+.brand{
+    padding: 1vh 1vw;
+    background-color: #0066b3;
+    box-shadow: 0 2px 3px 0 black;
+    color: gold;
+    border-bottom:solid 2px goldenrod;
+}
+.center {
+    display: block;
+    background-color: #0066b3;
+    margin: -2px auto 0 auto;
+
+    height:65px;
+    width:200px;
+
+    padding-bottom: 5px;
+    box-shadow: 0 3px 3px 0 black;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    border:solid 2px goldenrod;
+    border-top:0;
+
+    text-align: center;
+    font-size: 2em;
+}
+
+.profile{
+    display:none;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: black;
+    float:left;
+    width:300px;
+    height: 100vh;
+    padding-left: 5px;
+    z-index: 5;
+}
+.profile p{
+    margin:0 0 2vh 0;
+}
+.btnProfile{
+    position: fixed;
+    top:50%;
+    margin-top: -50px;
+    margin-left: 0;
+    float:left;
+    background-color: black;
+    height:100px;
+    width:45px;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.card{
+    margin-left:-100px;
+    border-radius:15px;
+    border:solid 1px black;
+    width:150px;
+    height:225px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100%;
+    color:black;
+    background-color: black;
+    box-shadow: 0 0 3px 0 black;
+}
+.play:hover{
+    margin-right: 80px;
+    margin-top: -1vh;
+    z-index: 2;
+}
+.mobile{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.51);
+    font-size: 3em;
+    text-align: center;
+    color: red;
+}
+.line{
+    width:200px;
+    border:solid 1px white;
+}
+.computer{
+    margin-top:5vh;
+    margin-left: 5vw;
+}
+.info{
+    width:120px;
+    border-radius:25px;
+    padding: 2px 5px;
+    border:solid 2px goldenrod;
+    margin:2vh auto 0 auto;
+}
+.colours{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
+.colours:hover{
+    margin-top: -2%;
+    box-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+#mask{
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.51);
+
+    padding-top:25vh;
+    text-align: center;
+    font-size: 2em;
+}
+#palette{
+    padding:5vh 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width:100vw;
+}
+#btnSubmit{
+    display: block;
+    margin: 15px auto 0 auto;
+    width:325px;
+    border-radius: 15px;
+}
+#board{
+    display:none;
+    position:fixed;
+    margin-left: -75px;
+    margin-top: -200px;
+    top:45vh;
+    left: 50vw;
+}
+#hand{
+    height: 225px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+#playerInfo{
+    border-top:solid 2px goldenrod;
+    border-left:solid 2px goldenrod;
+    margin-top:-3vh;
+    border-top-left-radius: 50px;
+    background-color: #0066b3;
+    padding: 5vh 15px 0 15px;
+    box-shadow: -1px 0 5px black;
+}
+#credentials{
+    color: gold;
+}
+#result{
+    height:100px;
+}
+#result p{
+    margin:0 auto;
+}
+#bet{
+    width:350px;
+    height: 350px;
+    position: fixed;
+    top:50vh;
+    left:50vw;
+    margin-top: -175px;
+    margin-left: -175px;
+    text-align: center;
+}
+#mLabel{
+    width:100px;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+#start{
+    display: block;
+    margin: 50px auto 0 auto;
+    width:150px;
+    height:50px;
+    font-size: 1.5em;
+    border-radius: 25px;
+}
+#multiplier{
+    display: block;
+    margin:0 auto;
+    width:150px;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: center;
+}
+#erMultiplier{
+    margin-left: 0;
+    text-align: center;
+}
+#legend{
+    position: absolute;
+    bottom:35vh;
+    right:1vw;
+    font-size: 0.8em;
+}
+#signup{
+    width: 650px;
+    height: 325px;
+}
+#person{
+    color: gray;
+    margin-bottom: 0;
+}
+#visitLabel{
+    text-align: center;
+    font-size: 0.75em;
+    margin-top: 250px;
+    margin-bottom: 0;
+    color: gray;
+}
+#visit{
+    text-align: center;
+    font-size: 0.75em;
+    color: gray;
+}
+@media all and (orientation: landscape){
+    .mobile{
+        display:none;
+    }
+}
+@media all and (min-width: 1200px){
+    main{
+        height:50vh;
+    }
+    footer{
+        height: 30vh;
+    }
+    .card{
+        width:180px;
+        height:260px;
+        margin-left: -85px;
+    }
+    .card:hover{
+        margin-right:30px;
+    }
+    #board{
+        margin-left: -90px;
+    }
+}
