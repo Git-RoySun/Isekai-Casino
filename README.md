@@ -1,0 +1,2 @@
+# Isekai-Casino
+Dynamic website
